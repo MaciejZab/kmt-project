@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Footer</title>
+  </head>
+  <body>
+    <footer>
+      <div>
+        <div>
+          <button
+            class="footer-toggle"
+            aria-controls="footer-container"
+            aria-expanded="false"
+          >
+            <span>
+              Księgarnia
+              <svg viewBox="0 0 100 100" height="24px" fill="#343A40">
+                <rect
+                  class="footer-rectLeft"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(1.5) rotate(135)"
+                ></rect>
+                <rect
+                  class="footer-rectRight"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(-1.5) rotate(45)"
+                ></rect>
+              </svg>
+            </span>
+          </button>
+          <ul class="footer-container">
+            <li><a href="/ksiegarnia/info/kmt/">O księgarni</a></li>
+            <li><a href="/katalog/autorzy/">Autorzy</a></li>
+            <li><a href="/katalog/wydawnictwa/">Wydawnictwa</a></li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="footer-toggle"
+            aria-controls="footer-container"
+            aria-expanded="false"
+          >
+            <span
+              >Zakupy
+              <svg viewBox="0 0 100 100" height="24px" fill="#343A40">
+                <rect
+                  class="footer-rectLeft"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(1.5) rotate(135)"
+                ></rect>
+                <rect
+                  class="footer-rectRight"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(-1.5) rotate(45)"
+                ></rect>
+              </svg>
+            </span>
+          </button>
+          <ul class="footer-container">
+            <li><a href="/ksiegarnia/info/regulamin/">Regulamin zakupów</a></li>
+            <li>
+              <a href="/ksiegarnia/info/cookies/">Polityka prywatności</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="footer-toggle"
+            aria-controls="footer-container"
+            aria-expanded="false"
+          >
+            <span
+              >Pomoc
+              <svg viewBox="0 0 100 100" height="24px" fill="#343A40">
+                <rect
+                  class="footer-rectLeft"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(1.5) rotate(135)"
+                ></rect>
+                <rect
+                  class="footer-rectRight"
+                  y="46.75"
+                  x="50"
+                  rx="3.125"
+                  width="50"
+                  height="6.25"
+                  transform="translate(-1.5) rotate(45)"
+                ></rect>
+              </svg>
+            </span>
+          </button>
+          <ul class="footer-container">
+            <li><a href="#">Składanie zamówień</a></li>
+            <li><a href="#">Płatności</a></li>
+            <li><a href="#">Zwroty i reklamacje</a></li>
+          </ul>
+        </div>
+        <div>
+          <span>Kontakt</span>
+          <ul class="footer-containerBottom">
+            <li>
+              <a href="mailto:biuro@kmt.pl"
+                ><img src="../0. images/Mail.svg" alt="e-mail" />biuro@kmt.pl</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/people/Ksi%C4%99garnia-Mateusza/100057129924485/?paipv=0&eav=AfaYujj-WnmbWK8vt90pqGHLUoxO8jTQggtw-WPY0GUUk6ucLfyZ26a5HkmGRtsPOlg&_rdr"
+                ><img
+                  src="../0. images/Facebook.svg"
+                  alt="facebook"
+                />Księgarnia Mateusza</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="copy">
+        <span
+          >&copy; 1997-<span id="currentYear"></span>&nbsp;Księgarnia Mateusza,
+          kmt.pl
+        </span>
+      </div>
+    </footer>
+
+    <script src="footer.js"></script>
+  </body>
+</html>
