@@ -8,7 +8,7 @@ const totalElement = document.querySelector("[name='pageCounter']");
 const totalPages = totalElement !== null ? parseInt(totalElement.value) : null;
 
 if (totalPages === null) {
-  throw new Error("Lack of 'totalElement' in DOM");
+  throw new Error("Lack of 'totalElement' on DOM");
 }
 
 // Get the current URL and extract the search parameters
